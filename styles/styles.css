@@ -13,7 +13,7 @@ nav a {
     color: #EDB518;
     text-decoration: none;
     padding: 35px;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 nav a:hover {
     background-color: #616161;
@@ -23,7 +23,7 @@ header {
     font-family: Bebas Neue, Comic Bold, Georgia;
 }
 #logo-img {
-    width: 150px;
+    width: 160px;
 }
 #logo_link {
     justify-self: center;
@@ -39,6 +39,7 @@ header {
 }
 .hero-image {
     padding-top: 60px;
+    padding-bottom: 60px;
     width: 100%;
     height: auto;
     z-index: -1;
@@ -47,9 +48,9 @@ header {
 }
 .company-name {
     color: white;
-    font-size: 2.5em;
+    font-size: 3em;
     grid-row: 2/3;
-    grid-column: 4/6;
+    grid-column: 3/7;
 }
 .text-box-1-main,
 .text-box-2-main {
@@ -67,13 +68,13 @@ header {
     justify-content: space-around;
 }
 #mma-gym, #powerlifting-gym {
-    width: 500px;
-    height: 600px;
+    width: 550px;
+    height: 650px;
     margin: 0 auto;
     padding-top: 60px;
 }
 p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: center;
     font-family: Times, Century, Verdana;
     padding-bottom: 20px;
@@ -93,7 +94,7 @@ footer {
 footer a {
     color: #EDB518;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 footer .social img{
     padding-top: 15px;
@@ -103,5 +104,5 @@ footer a:hover {
     text-decoration: underline;
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
