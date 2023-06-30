@@ -13,7 +13,7 @@ nav a {
     color: #EDB518;
     text-decoration: none;
     padding: 35px;
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 nav a:hover {
     background-color: #616161;
@@ -48,7 +48,7 @@ header {
 }
 .company-name {
     color: white;
-    font-size: 3em;
+    font-size: 3.5em;
     grid-row: 2/3;
     grid-column: 3/7;
 }
@@ -74,7 +74,7 @@ header {
     padding-top: 60px;
 }
 p {
-    font-size: 1.4em;
+    font-size: 1.7em;
     text-align: center;
     font-family: Times, Century, Verdana;
     padding-bottom: 20px;
@@ -94,7 +94,7 @@ footer {
 footer a {
     color: #EDB518;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 footer .social img{
     padding-top: 15px;
@@ -104,5 +104,5 @@ footer a:hover {
     text-decoration: underline;
 }
 footer p {
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
