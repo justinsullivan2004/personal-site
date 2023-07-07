@@ -106,3 +106,61 @@ footer a:hover {
 footer p {
     font-size: 1.7em;
 }
+
+/* what is mma and powerlifting */
+.faq-title {
+    background-color: #333333;
+    color: #EDB518;
+    font-size: 3.5em;
+    text-align: center;
+    height: 150px;
+    width: 1400px;
+    margin: 0 auto;
+}
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 100px 1fr 100px 1fr;
+}
+.faq-text-1 {
+    background-color: #333333;
+    color: #EDB518;
+    grid-column: 1/2;
+    width: 100%;
+    text-align: center;
+    grid-row: 2/3;
+}
+#faq-titles {
+    font-size: 3em;
+}
+#faq-text {
+    font-size: 2.5em;
+    font-family: Times, Century, Verdana;
+}
+#athletic-edge {
+    width: 100%;
+    height: 750px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border: 10px solid black;
+}
+#empty-space {
+    grid-row: 3/4;
+}
+#lifting-weights {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 100%;
+    height: 750px;
+    border: 10px solid black;
+}
+.faq-text-2 {
+    background-color: #333333;
+    color: #EDB518;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    width: 100%;
+    text-align: center;
+}
+
+
