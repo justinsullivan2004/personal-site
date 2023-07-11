@@ -164,4 +164,66 @@ footer p {
     text-align: center;
 }
 
-
+/* what is css */
+.what-is-title {
+    background-color: #333333;
+    color: #EDB518;
+    text-align: center;
+    height: auto;
+    font-size: 3em;
+    font-family: Bebas Neue, Comic Bold, Georgia;
+    width: 1300px;
+    margin: 0 auto;
+}
+.main-text {
+    display: grid;
+    grid-template-rows: 1fr 100px, 1fr;
+}
+#page-2-text-1 {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 100px 1fr 100px 1fr;
+    grid-row: 1/2;
+    height: 850px;
+    background-color: #333333;
+    margin-bottom: 60px;
+}
+#empty-space {
+    grid-row: 2/3;
+}
+#page-2-text-2 {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 100px 1fr 100px 1fr;
+    grid-row: 3/4;
+    margin-top: 60px;
+    height: 750px;
+    background: #333333;
+}
+#p2-text-1 {
+    grid-column: 3/4;
+    color: #EDB518;
+    font-size: 2.5em;
+    font-family: Times, Century, Verdana;
+    padding: 60px;
+}
+#p2-text-2 {
+    grid-column: 1/2;
+    color: #EDB518;
+    font-size: 2.5em;
+    font-family: Times, Century, Verdana;
+    padding: 20px;
+}
+#mma-training {
+    grid-column: 1/2;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+}
+#powerlifting-training {
+    grid-column: 3/4;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;   
+    padding: 60px;
+}
