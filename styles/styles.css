@@ -177,7 +177,7 @@ footer p {
 }
 .main-text {
     display: grid;
-    grid-template-rows: 1fr 100px, 1fr;
+    grid-template-rows: 1fr 60px 1fr;
 }
 #page-2-text-1 {
     display: grid;
